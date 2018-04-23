@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single"
+        android:id="@+id/menugroup_main">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_page"
+            android:title="@string/home_page" />
+        <item
+            android:id="@+id/nav_visits"
+            android:icon="@drawable/medical_visits"
+            android:title="@string/medical_visits" />
+        <item
+            android:id="@+id/nav_bills"
+            android:icon="@drawable/medical_bills"
+            android:title="@string/medical_bills" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/messages"
+            android:title="@string/messages" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/menugroup_logout">
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

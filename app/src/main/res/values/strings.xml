@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">myHealth</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_userid">UserID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log in or register</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_user">This username is incorrect</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_network">Could not connect to the network</string>
+    <string name="action_settings">Settings</string>
+    <string name="home_page">Home Page</string>
+    <string name="medical_visits">Medical Visits</string>
+    <string name="medical_visit_detail">Medical Visit Detail</string>
+    <string name="medical_bills">Medical Bills</string>
+    <string name="messages">Messages</string>
+    <string name="logout">Logout</string>
+    <string name="medical_visit_advice">You have %d medical visit information available</string>
+    <string name="medical_bills_advice">You have %d medical bills</string>
+    <string name="messages_advice">You have %d unread messages</string>
+    <string name="date">April 01 2018</string>
+    <string name="medical_visit_reason"><b>Reason</b>\n%s</string>
+    <string name="medical_visit_diagnosis"><b>Diagnosis</b>\n%s</string>
+    <string name="medical_visit_medications"><b>Medications</b>\n%s</string>
+    <string name="medical_visit_instructions"><b>Instructions</b>\n%s</string>
+</resources>

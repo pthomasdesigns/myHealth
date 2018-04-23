@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/nav_vertical_margin"
+        app:cardElevation="@dimen/card_elevation"
+        android:id="@+id/view_visits">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/nav_vertical_margin"
+                style="@style/CardTitle"
+                android:text="@string/medical_visits"/>
+
+            <TextView
+                android:id="@+id/text_view_visits"
+                android:layout_margin="@dimen/nav_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/medical_visit_advice"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/nav_vertical_margin"
+        app:cardElevation="@dimen/card_elevation"
+        android:id="@+id/view_bills">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="@dimen/nav_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/CardTitle"
+                android:text="@string/medical_bills"/>
+
+            <TextView
+                android:id="@+id/text_view_bills"
+                android:layout_margin="@dimen/nav_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/medical_bills_advice"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/nav_vertical_margin"
+        app:cardElevation="@dimen/card_elevation"
+        android:clickable="true"
+        android:stateListAnimator="@anim/animation"
+        android:id="@+id/view_messages">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="@dimen/nav_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/CardTitle"
+                android:text="@string/messages"/>
+
+            <TextView
+                android:id="@+id/text_view_messages"
+                android:layout_margin="@dimen/nav_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/messages_advice"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
